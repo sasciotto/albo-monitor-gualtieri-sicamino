@@ -1,0 +1,28 @@
+# Ambiente Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Variabili locali / segreti
+.env
+.env.local
+
+# Database e storico locale
+data/
+*.sqlite
+*.db
+
+# Output generati
+logs/
+reports/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
